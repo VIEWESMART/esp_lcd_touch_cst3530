@@ -1,6 +1,6 @@
 # ESP LCD Touch CST3530
 
-[![Component Registry](https://components.espressif.com/components/espressif/esp_lcd_touch_cst3530/badge.svg)](https://components.espressif.com/components/espressif/esp_lcd_touch_cst3530)
+[![Component Registry](https://components.espressif.com/components/VIEWESMART/esp_lcd_touch_cst3530/badge.svg)](https://components.espressif.com/components/VIEWESMART/esp_lcd_touch_cst3530)
 
 | | |
 |---|---|
@@ -44,20 +44,13 @@ The built-in HYN low-level driver handles chip initialization, touch report pars
 
 ## Add to your project
 
-Add to your project's `idf_component.yml`:
+Add to your project's `main/idf_component.yml` (or the component that uses this driver):
 
 ```yaml
 dependencies:
-  esp_lcd_touch_cst3530:
+  VIEWESMART/esp_lcd_touch_cst3530:
     version: "^1.0.0"
-    # override_path: "../esp_lcd_touch_cst3530"   # for local development
-```
-
-Or use the Espressif Component Registry after publication:
-
-```yaml
-dependencies:
-  espressif/esp_lcd_touch_cst3530: "^1.0.0"
+    override_path: "../esp_lcd_touch_cst3530"
 ```
 
 ## Hardware connection
