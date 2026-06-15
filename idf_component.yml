@@ -4,6 +4,7 @@ description: ESP LCD touch driver for CST3530 (HYN cst66xx series)
 
 license: "Apache-2.0"
 url: "https://github.com/VIEWESMART/esp_lcd_touch_cst3530"
+repository: "https://github.com/VIEWESMART/esp_lcd_touch_cst3530.git"
 authors:
   - "Ayang <Shenzhen Viewe Technology Co., Ltd.>"
 
