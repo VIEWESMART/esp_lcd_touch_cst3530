@@ -1,0 +1,9 @@
+menu "ESP LCD TOUCH - CST3530"
+
+    config ESP_LCD_TOUCH_CST3530_DISABLE_CHIP_INFO_LOG
+        bool "Disable chip info log during initialization"
+        default n
+        help
+            When enabled, skip printing firmware/chip information after CST3530 init.
+
+endmenu

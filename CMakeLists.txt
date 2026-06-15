@@ -1,0 +1,16 @@
+idf_component_register(
+    SRCS
+        "esp_lcd_touch_cst3530.c"
+        "private/hyn/hyn_core.c"
+        "private/hyn/hyn_i2c.c"
+        "private/hyn/hyn_ts_ext.c"
+        "private/hyn/hyn_cst66xx.c"
+    INCLUDE_DIRS
+        "include"
+    PRIV_INCLUDE_DIRS
+        "private/hyn"
+    REQUIRES
+        driver
+        esp_lcd
+        espressif__esp_lcd_touch
+)
