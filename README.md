@@ -8,7 +8,7 @@
 | **Organization** | Shenzhen Viewe Technology Co., Ltd. |
 | **Copyright** | © 2026 Shenzhen Viewe Technology Co., Ltd. |
 | **License** | Apache-2.0 |
-| **Version** | 1.0.0 |
+| **Version** | 1.0.1 |
 
 ESP LCD touch driver for **CST3530** (HYN **cst66xx** series) capacitive touch controllers. The component implements the standard [`esp_lcd_touch`](https://components.espressif.com/components/espressif/esp_lcd_touch) API and can be used with LVGL (via `esp_lvgl_adapter`) or any custom input stack.
 
@@ -49,8 +49,7 @@ Add to your project's `main/idf_component.yml` (or the component that uses this 
 ```yaml
 dependencies:
   VIEWESMART/esp_lcd_touch_cst3530:
-    version: "^1.0.0"
-    override_path: "../esp_lcd_touch_cst3530"
+    version: "^1.0.1"
 ```
 
 ## Hardware connection
